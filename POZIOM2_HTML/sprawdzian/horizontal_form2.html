@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+        table-layout: fixed;
+        border-collapse: collapse;
+    }
+
+    td {
+        border: dotted 1px grey;
+        text-align: center left;
+        padding: 10px 30px 10px 10px;
+    }
+
+    body {
+        font-family: Papyrus;
+        font-size: large;
+    }
+
+
+    #adr,
+    #pass,
+    #button{
+        background-color: lightblue;
+        border: 2px solid cadetblue;
+        font-family: Poor Richard;
+        font-size: large;
+        padding: 5px 10px 5px 10px;
+        
+    }
+    #adr,
+    #pass{
+        input:hover 
+            color: aliceblue;
+        
+    }
+</style>
+
+<body>
+    <table>
+        <form action="">
+
+            <tr>
+                <td>Ades e-mail:</td>
+                <td><input type="email" name="adres" id="adr" placeholder="adres@email.com" style="width: 100%;"></td>
+            </tr>
+
+            <tr>
+                <td>Hasło:</td>
+                <td><input type="password" name="pass" id="pass" placeholder="minimum 8 znaków" style="width: 100%; "></td>
+            </tr>
+
+            <tr>
+                <td>Rola:</td>
+                <td> <input type="radio" name="rolaa" id="a" checked> <label for="rolaa">kandydat</label>
+                    <input type="radio" name="rolab" id="b"> <label for="rolab">aplikant</label>
+                    <input type="radio" name="rolac" id="c"> <label for="rolac">kursant</label>
+                    <input type="radio" name="rolad" id="d"> <label for="rolad">absolwent</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Grupa:</td>
+                <td> <input type="checkbox" name="wio" id="wio"> <label for="wio">wiosenna</label>
+                    <input type="checkbox" name="let" id="let"><label for="let">letnia</label>
+                    <input type="checkbox" name="jes" id="jes"><label for="jes">jesienna</label>
+                    <input type="checkbox" name="zim" id="zim"><label for="zim">zimowa</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Wyślij" style="padding: 10px;" id="button"></td>
+            </tr>
+        </form>
+    </table>
+</body>
+
+</html>
