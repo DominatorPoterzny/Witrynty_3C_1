@@ -1,0 +1,18 @@
+div {
+	background-color: violet;
+	border: 5px solid;
+	border-radius: 45px;
+	text-align: center;
+	border-color: red yellow;
+	font-size: 20px;
+	border-width: 50px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#firma {
+	font-weight: bold;
+	border: 3px dotted red;
+}
+#imie {
+	font-weight: bold;
+	border-bottom: black solid;
+}
