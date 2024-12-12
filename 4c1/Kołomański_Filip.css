@@ -1,0 +1,26 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 1.5;
+	background-color: #bfbfbf;
+}
+.baner {
+	background-color: #4caf50;
+	color: white;
+}
+.info {
+	background-color: white;
+	box-shadow: 10px 10px rgb(85, 85, 85);
+}
+h1,
+h3 {
+	letter-spacing: 5px;
+}
+.gren{
+	color: #4caf50;
+	text-transform: uppercase;
+	text-decoration: solid underline;
+}
+.red {
+	font-weight: bold;
+	color: red;
+}
