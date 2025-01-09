@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overflow {
+            border-width: 10px;
+            border-color: red;
+            border-style: solid;
+            height: 200px;
+            width: 200px;
+        }
+
+        p {
+            border: 1px blue dotted;
+            font-size: 20px;
+        }
+
+        code {
+            font-size: 20px;
+        }
+
+        .minw {
+            min-width: 300px;
+            border: red 2px solid;
+        }
+
+        .maxw {
+            max-width: 200px;
+            border: red 2px solid;
+        }
+
+        .minh {
+            min-height: 50px;
+            border: red 2px solid;
+        }
+
+        .maxh {
+            max-height: 200px;
+            border: red 2px solid;
+        }
+        h1{
+            text-align: center;
+            color: black;
+
+        }
+    </style>
+</head>
+
+<body>
+    min-width, max-width, min-height, max-height, overflow
+    <p>overflow-może dostosować content który nie mieści się na stronie na przykład może go zawinąć i dodać suwak</p>
+    <div><code>scroll i hidden</code>
+        <p style="overflow: scroll;" class='overflow'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatem est tempora accusantium voluptate facere? Sed dolorum sit molestias, suscipit incidunt debitis
+            voluptatem excepturi a quidem quisquam perferendis, libero fuga. Natus?Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Laboriosam a exercitationem expedita, praesentium tenetur temporibus
+            voluptatum ipsam quidem perspiciatis officia. Nemo magnam accusamus repellat, ea voluptates numquam placeat
+            eius ipsa?</p>
+        <br>
+        <p style="overflow: hidden;" class='overflow'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Voluptatem est
+            tempora accusantium voluptate facere? Sed dolorum sit molestias, suscipit incidunt debitis voluptatem
+            excepturi a
+            quidem quisquam perferendis, libero fuga. Natus?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Laboriosam
+            a exercitationem expedita, praesentium tenetur temporibus voluptatum ipsam quidem perspiciatis officia. Nemo
+            magnam
+            accusamus repellat, ea voluptates numquam placeat eius ipsa?</p>
+    </div>
+    <h1>min-width</h1>
+    <p>min-width-Element nie może być mniejszy niż wartość ustawiona w min-width. Nawet jeśli rodzic lub inne
+        okoliczności sugerują
+        mniejszą szerokość, element będzie miał co najmniej tę wartość.</p>
+    
+    <p class="minw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae velit quo nobis,
+        voluptate ad accusantium dignissimos ipsum consectetur alias voluptatum unde fugit. Architecto, aperiam? Sint
+        quod exercitationem repellat iste.</p>
+    <br>
+    <h1>max-width</h1>
+    <p>max-width-Element nie może być szerszy niż wartość ustawiona w max-width. Nawet jeśli zawartość elementu lub inne
+        okoliczności
+        sugerują większą szerokość, element będzie ograniczony do tej wartości.</p>
+    <p class="maxw">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae velit quo nobis,
+        voluptate ad
+        accusantium dignissimos ipsum consectetur alias voluptatum unde fugit. Architecto, aperiam? Sint quod
+        exercitationem
+        repellat iste.</p>
+    <br>
+    <h1>min-height</h1>
+    <p>min-height-Element nie może być wyższy niż wartość ustawiona w min-height. Nawet jeśli zawartość lub inne
+        czynniki próbują sprawić,
+        że element będzie mniejszy, jego wysokość nie spadnie poniżej tej wartości.</p>
+    <p class="minh">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae velit quo nobis,
+        voluptate ad
+        accusantium dignissimos ipsum consectetur alias voluptatum unde fugit. Architecto, aperiam? Sint quod
+        exercitationem
+        repellat iste.</p>
+    <br>
+    <h1>max-height</h1>
+    <p>max-height-Element nie może być wyższy niż wartość ustawiona w max-height. Jeśli zawartość elementu chce go
+        powiększyć, ale wartość
+        max-height jest mniejsza, element zostanie ograniczony do tej wysokości.</p>
+    <p class="maxh">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet repudiandae velit quo nobis,
+        voluptate ad
+        accusantium dignissimos ipsum consectetur alias voluptatum unde fugit. Architecto, aperiam? Sint quod
+        exercitationem
+        repellat iste.</p>
+    <p>Elementy te często łączą się same ze sobą i z elementem overflow</p>
+
+</body>
+
+</html>
