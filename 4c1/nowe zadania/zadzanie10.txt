@@ -1,0 +1,121 @@
+style
+
+znaczników
+
+listy
+
+Właściwość: list-style-type pozwala kontrolować kształt i styl znaczników, którymi oznaczone są elementy listy.Tej własności można używać w regułach stylów odnoszących się do elementów: ol, ul i li
+
+Listy wypunktowane
+brak punktora:none
+punktor: circle
+punktor: disk
+punktor: square
+
+Listy numerowane
+dziesiętne: decimal
+z wiodącym zerem: decimal-leanding-zero
+male rzymskie: lower-roman
+duże rzymskie: upper-roman
+małe litery: lower-alpha
+duże litery: upper-alpha
+
+Punktowania obrazkami za pomocą właściwości list-style-image
+
+Samchody
+osobowe
+dostawcze
+ciężarowe
+
+Film
+obyczjowy
+dokumentalny
+
+Umiejscowienie znaczników
+list-style-position
+
+OUTSIDE
+w prezentowanym przykładzie tekst jest wyrónywany do lewej strony z jednakową wartością wciecia w każdej linii punktu
+pamiętaj, by obraz punktora był niewielki, to ważne dla łądnego wyglądu strony oraz prędkkości jej ładowania
+ważna jest również prawidłowa ścieżka dostępu do obrazu ; jeśli jest on w innym katalogu należy zastosować ../
+
+Umiejscowienie znaczników
+list-style-position
+INSIDE
+w prezentowanym przykładzie tekst jest NIE MA jednakowego wciecia w każdej linii punktu
+pamiętaj, by obraz punktora był niewielki, to ważne dla łądnego wyglądu strony oraz prędkkości jej ładowania
+ważna jest również prawidłowa ścieżka dostępu do obrazu ; jeśli jest on w innym katalogu należy zastosować ../
+
+Zapis
+skrótowy
+wcięcie w liniach punktów: INSIDE
+ustawienie punktora: CIRCLE
+
+
+
+
+preeter
+
+
+
+
+
+
+
+
+
+
+{
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+	},
+	"files.autoSave": "afterDelay",
+	"breadcrumbs.enabled": false,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+	"editor.wordWrap": "on",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.jsxBracketSameLine": true,
+	"prettier.semi": false,
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"explorer.confirmDelete": false,
+	"workbench.sideBar.location": "right",
+	"workbench.startupEditor": "none",
+	"editor.fontSize": 16,
+	"editor.mouseWheelZoom": true,
+	"editor.fontWeight": "700",
+	"editor.fontLigatures": true,
+	"editor.formatOnPaste": true,
+	"debug.onTaskErrors": "showErrors",
+	"workbench.colorTheme": "Tokyo Night",
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.unicodeHighlight.ambiguousCharacters": false
+}
