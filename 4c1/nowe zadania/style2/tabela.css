@@ -37,6 +37,6 @@ th {
 tr:hover{
     background-color: deeppink;
 }
-div{
+div, .color{
     background-color: #eeeeee ;
 }
