@@ -8,8 +8,8 @@ h1 {
 	margin-bottom: 0px;
 	text-transform: uppercase;
 	color: black;
-    text-align: center;
-    text-decoration:  underline;
+	text-align: center;
+	text-decoration: underline;
 }
 p {
 	color: black;
@@ -31,12 +31,13 @@ th {
 	font-weight: 300px;
 	font-family: 'Sacramento', serif;
 }
-.cour{
-    font-family: 'Courier New', Courier, monospace;
+.cour {
+	font-family: 'Courier New', Courier, monospace;
 }
-tr:hover{
-    background-color: deeppink;
+tr:hover {
+	background-color: deeppink;
 }
-div, .color{
-    background-color: #eeeeee ;
+div,
+.color {
+	background-color: #eeeeee;
 }
