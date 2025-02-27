@@ -1,0 +1,49 @@
+body {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.lato {
+	background-color: #219921;
+	text-align: center;
+	display: inline-block;
+
+	width: 800px;
+	height: 200px;
+	box-shadow: 5px 5px 5px gray;
+}
+.jesien {
+	background-color: orange;
+	text-align: center;
+	display: inline-block;
+
+	width: 800px;
+	height: 200px;
+	box-shadow: 5px 5px 5px gray;
+}
+.like1,
+.like2 {
+	letter-spacing: 2px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 100px;
+	margin: auto;
+    font-size: 20px;
+}
+.like1{
+     color: #219921;
+}
+.like2{
+    color: orange;
+}
+.like1:hover{
+   
+    background-color: rgb(2, 61, 23);
+}
+.like2:hover{
+    
+    background-color: brown;
+}
+p{
+    color: white;
+    font-size: 30px;
+}

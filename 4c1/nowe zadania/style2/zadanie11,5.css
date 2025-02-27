@@ -1,17 +1,43 @@
 .kontener1 {
 	width: 600px;
-	background-color: azure;
+	background-color: magenta;
 	margin: 20px auto;
 }
 .menu1 {
 	display: inline-block;
 	background-color: lightgray;
-	width: 100px;
+	width: 92px;
 	text-align: center;
 	padding: 10px;
-	margin-left: 2px;
+	margin: 4px;
+
+	border-left: 1px black solid;
+	border-bottom: 1px solid black;
+	
+    
+}
+.kontener2 {
+	width: 600px;
+	background-color: magenta;
+	margin: 20px auto;
+}
+.menu2 {
+	display: inline-block;
+	background-color: lightgray;
+	width: 92px;
+	text-align: center;
+	padding: 10px;
+	margin: 4px;
+
 	border-left: 1px black solid;
 	border-bottom: 1px solid black;
 	box-sizing: border-box;
-    margin: 2px;
+    
 }
+li.menu2:hover{
+    background-color: green;
+}
+li.menu2:active{
+    background-color: blue;
+}
+
