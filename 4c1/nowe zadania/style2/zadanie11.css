@@ -1,0 +1,40 @@
+/* .kontener1{
+    width: 600px;
+    background-color: azure;
+    margin: 20px auto;
+} */
+
+div{
+    background-color: lightcoral;
+}
+p{
+    background-color: lightcyan;
+}
+li{
+    background-color: aquamarine;
+}
+span{
+    background-color: blanchedalmond;
+}
+strong{
+    background-color: yellow;
+}
+em{
+    background-color: lightgoldenrodyellow;
+}
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+    width: 150px;
+    text-align: center;
+}
+.inline-block{
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    margin: 0px;
+    text-align: center;
+    background-color: lightgray;
+}
