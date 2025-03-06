@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2/zadanie12.css">
+</head>
+
+<body>
+    <div class="kontener">
+        <h1>Prezentacja włąściwości <span>position:static</span></h1>
+        <p>Jest to domyślny sposób pozycjonowania elementów na stronie- zgodnie z zasadą jeden pod drugim w kolejności
+            wstawiania</p>
+        <p>Każdy element blokkowy jest wyświetlany w nowym wierszu, a zatem naturalnym jest że występują jeden pod
+            drugim</p>
+        <p>Jeśli szerokość elementów została określona i jeśli dwa kolejne elementy zmeszczą się obok siebie to i tak
+            nie
+            zostaną wyświetlone obok siebie</p>
+            <div class="basic one">element 1</div>
+            <div class="basic two">element 2</div>
+            <div class="basic three">element 3</div>
+
+        <h1>Prezentacja właściwości position:relative</h1>
+        <p>W tym przypadku elementy są przesuwane z miejsca, które normalnie by zajmowały. Wartość relative ustawia
+            element z
+            przesunięciem względem jego normalnego położenia</p>
+        <p class="offset">Ten akapit został przesunięty o 10 pixeli od góry i 30 pixeli od lewej</p>
+        <p>Zmiany nie wpływają na położenie sąsiednich elementów- te pozostają wyświetlone w tych samych miejscach, w
+            których
+            zostały umieszczone przy wykorzystaniu rozkładu normalnego</p>
+        <div class="basic one">element 1</div>
+        <div class="basic two offset">element 2</div>
+        <div class="basic three">element 3</div>
+    </div>
+
+
+    <p id="absolut">ABSOLUT - został wyjęty z normalnego przepływu, nie wpływa na położenie innych elementów, jest jakby nad nimi;
+        przesuwa się trakcie przesuwania strony;</p>
+    <p id="fixed">FIXED - właściwość umiejscawia element w sposób bezwzględny w stosunku do strony. Do określenia miejsca używane
+        są włąsciwości przesunięcia. Pozostałe elementy są rozmieszczone zgodnie z rozkładem normalnym i całkowicie
+        ignorują miejsce zajmowane przez element o wartości fixed, wchodzą niejako pod niego</p>
+
+    <a href="">WYKONAJ!!!</a>
+</body>
+
+</html>
