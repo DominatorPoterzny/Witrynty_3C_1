@@ -1,0 +1,29 @@
+.header{
+    background-color: purple;
+    color: white;
+    text-transform: uppercase;
+    padding: 60px;
+    position: relative;
+}
+.footer{
+    background-color: rgb(126, 38, 126);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 40px;
+    
+}
+div.container{
+    border-left:2px solid lightblue ;
+    border-right:2px solid lightblue ;
+}
+span{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
