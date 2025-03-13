@@ -1,9 +1,10 @@
 .header{
-    background-color: purple;
+    background-color: rgb(66, 2, 66);
     color: white;
     text-transform: uppercase;
     padding: 60px;
     position: relative;
+    
 }
 .footer{
     background-color: rgb(126, 38, 126);
@@ -16,6 +17,7 @@
 div.container{
     border-left:2px solid lightblue ;
     border-right:2px solid lightblue ;
+    display: inline-block;
 }
 span{
     position: absolute;
