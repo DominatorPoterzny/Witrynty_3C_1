@@ -5,7 +5,7 @@ body{
 h1{
     color: rgb(20, 20, 21);
     border-top: grey solid 1px;
-    border-bottom: grey 2px  double;
+    border-bottom: grey 4px  double;
     text-align: center;
 }
 span{
@@ -18,4 +18,16 @@ span{
     margin: 5px;
     padding: 5px;
     background-color: lightgray;
+    float: left;
+ }
+ .clear{
+    clear: left;
+ }
+ .clear-top{
+    clear: right;
+ }
+ div{
+    border: 1px solid black;
+    overflow: auto;
+    width: 100%;
  }
