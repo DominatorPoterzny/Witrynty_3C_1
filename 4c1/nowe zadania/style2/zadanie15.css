@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Verdana, sans-serif;
+    width: 750px;
+}
+h1{
+    color: rgb(20, 20, 21);
+    border-top: grey solid 1px;
+    border-bottom: grey 2px  double;
+    text-align: center;
+}
+span{
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-shadow: 1px 1px  grey;
+}
+ p{
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightgray;
+ }
