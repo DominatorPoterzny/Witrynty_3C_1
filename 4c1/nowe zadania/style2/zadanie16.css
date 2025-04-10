@@ -1,0 +1,10 @@
+body{
+    column-gap: 15px;
+    column-count: 3;
+    column-rule: 4px solid aqua;
+}
+img{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
