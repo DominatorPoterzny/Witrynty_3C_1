@@ -33,7 +33,6 @@ body{
 .header{
     text-align: center;
 
-
 }
 .img1{
     width: 300px;
@@ -74,6 +73,12 @@ body{
     width: 150px;
     height: 1000px;
     
+}
+h1{
+    color: lightsalmon;
+}
+h2{
+    color: lightsalmon;
 }
 h1,h2{
     font-size: 40px;
