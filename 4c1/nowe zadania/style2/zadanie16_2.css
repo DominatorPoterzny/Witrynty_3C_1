@@ -1,98 +1,91 @@
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: lightgoldenrodyellow;
+body {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: lightgoldenrodyellow;
+}
+.container {
+	width: 1500px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 5px grey;
+}
+.content {
+	column-count: 4;
+	column-rule: 4px dotted red;
+}
+.title {
+	font-size: 50px;
+	text-align: center;
+	text-decoration: dashed underline black;
+	letter-spacing: 3px;
+	text-shadow: 4px 4px 3px grey;
+}
+.tytul {
+	height: 100px;
+	width: 100px;
+}
+.header {
+	text-align: center;
+}
+.img1 {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+.img2 {
+	width: 300px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+}
+.img3 {
+	width: 1500px;
+	height: 200px;
 
+	margin: 5px;
+	padding: 5px;
 }
-.container{
-    width: 1500px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px grey;
-    
+.imgp {
+	margin: 5px;
+	padding: 5px;
+	object-fit: fill;
 }
-.content{
-   column-count: 4;
-   column-rule: 4px dotted red;
-   
-   
+.imgp1 {
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: right;
 }
-.title{
-    font-size: 50px;
-    text-align: center;
-    text-decoration: dashed underline black;
-    letter-spacing: 3px;
-    text-shadow: 4px 4px 3px grey;
+.right {
+	float: right;
+	width: 150px;
+	height: 1400px;
 }
-.tytul{
-    height: 100px;
-    width: 100px;
-    
+h1 {
+	color: lightsalmon;
 }
-.header{
-    text-align: center;
-
+h2 {
+	color: lightsalmon;
 }
-.img1{
-    width: 300px;
-    height: 200px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
+h1,
+h2 {
+	font-size: 40px;
+	text-shadow: 4px 4px 3px grey;
+	text-align: center;
 }
-.img2{
-    width: 300px;
-    height: 200px;
-    float: left;
-    margin: 5px;
-    padding: 5px;
+h3 {
+	font-weight: bolder;
 }
-.img3{
-    width: 1500px;
-    height: 200px;
-    
-    margin: 5px;
-    padding: 5px;
+h3::first-letter {
+	font-weight: bolder;
+	font-size: 30px;
+	color: lightcoral;
 }
-.imgp{
-    
-    margin: 5px;
-    padding: 5px;
-    object-fit: fill;
-}
-.imgp1{
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    padding: 5px;
-    float: right;
-}
-.right{
-    float: right;
-    width: 150px;
-    height: 1400px;
-    
-}
-h1{
-    color: lightsalmon;
-}
-h2{
-    color: lightsalmon;
-}
-h1,h2{
-    font-size: 40px;
-    text-shadow: 4px 4px 3px grey;
-    text-align: center;
-}
-h3{
-   font-weight: bolder; 
-}
-h3::first-letter{
-    font-weight: bolder;
-    font-size: 30px;
-    color: lightcoral;
-}
-p{
-    line-height: 1.5em;
+p {
+	line-height: 1.5em;
 }
