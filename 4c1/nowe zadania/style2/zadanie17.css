@@ -1,0 +1,23 @@
+body {
+	counter-reset: numeracja1;
+}
+h3 {
+	counter-increment: numeracja1;
+}
+h3::before {
+	content: 'D ' counter(numeracja1) ' blok lekcji: ';
+	font-family: 'Courier New', Courier, monospace;
+	color: darkred;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+.num {
+	counter-reset: numeracja2;
+}
+li {
+	counter-increment: numeracja2;
+	list-style: none;
+}
+li::before {
+	content: "" 'Po ' counter(numeracja2) ' ';
+}
