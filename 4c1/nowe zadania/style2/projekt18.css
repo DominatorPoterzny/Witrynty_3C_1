@@ -1,0 +1,40 @@
+header {
+	background-color: green;
+	display: flex;
+	justify-content: flex-start;
+}
+footer {
+	background-color: green;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+main {
+	background-color: lightgreen;
+}
+table {
+	/* border-collapse: collapse; */
+	border-top: green solid 1px;
+	border-bottom: green solid 1px;
+	border-left: green solid 1px;
+	border-right: green solid 1px;
+}
+th {
+	color: white;
+	background-color: green;
+}
+a {
+	color: gold;
+}
+h1 {
+	color: gold;
+	background-color: green;
+	display: flex;
+	justify-content: flex-end;
+}
+.price{
+    text-align: right;
+}
+img{
+    height: 100%;
+}
